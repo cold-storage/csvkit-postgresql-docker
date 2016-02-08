@@ -5,4 +5,4 @@ RUN apt-get -y update \
   && apt-get -y install python python-dev python-pip \
   && pip install psycopg2 \
   && pip install csvkit \
-  && apt-get install vim
+  && apt-get -y install vim
